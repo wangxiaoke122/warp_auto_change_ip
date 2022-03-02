@@ -22,3 +22,7 @@ wget https://github.com/luoxue-bot/warp_auto_change_ip/raw/main/warp_change_ip.s
 ```
 
 PS：Will use the result of directly executing curl to Netflix as a benchmark.
+设置：每隔多长时间检测一下ip的解锁是否有效
+脚本36行 echo -e "Region: ${region} Done, monitoring..."
+脚本37行 sleep 6
+第37行的sleep 6可以改成任意时间，单位是秒，一般来说，1分钟即sleep 60就行，ip基本都可以存
